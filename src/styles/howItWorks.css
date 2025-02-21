@@ -1,0 +1,72 @@
+.how-it-works {
+  padding: 4rem 2rem;
+  min-height: 85vh;
+  background-image: url("/images/sky.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  overflow: hidden;
+}
+
+.section-title {
+  font-family: "Fraunces", serif;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 570px;
+  margin: auto;
+}
+
+.step-item {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.step-icon {
+  background: #51658e;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  flex-shrink: 0;
+}
+
+.step-description .title {
+  position: relative;
+}
+
+.step-description .title img {
+  position: absolute;
+}
+
+.step-description p {
+  line-height: 1.5;
+  color: #cccfd6;
+  margin-top: 10px;
+}
+
+.step-item:nth-child(1) .title img {
+  display: none;
+}
+
+.step-item:nth-child(2) .title img {
+  top: -45px;
+  left: 0;
+  height: 44px;
+}
+
+.step-item:nth-child(3) .title img {
+  top: -42px;
+  left: 54px;
+  height: 60px;
+}
