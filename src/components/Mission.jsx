@@ -13,10 +13,8 @@ const Mission = () => {
         <div className="mission-text">
           <p className="mission-statement">
             Parents need a simple way to find, book, and track their kids
-            activities.
-            <br />
-            Businesses need a better way to be found and to keep families coming
-            back.
+            activities. Businesses need a better way to be found and to keep
+            families coming back.
           </p>
 
           <div className="purpose-statement">
@@ -35,7 +33,7 @@ const Mission = () => {
 
         <div className="mission-image-container">
           <img
-            src="/images/family.png"
+            src="/images/family.webp"
             alt="Family enjoying outdoor activities"
             className="mission-image"
           />

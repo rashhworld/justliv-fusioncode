@@ -1,7 +1,7 @@
 .how-it-works {
   padding: 4rem 2rem;
   min-height: 85vh;
-  background-image: url("/images/sky.png");
+  background-image: url("/images/sky.webp");
   background-size: cover;
   background-position: center;
   color: white;
@@ -26,7 +26,7 @@
 
 .step-item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 23px;
 }
 
@@ -69,4 +69,16 @@
   top: -42px;
   left: 54px;
   height: 60px;
+}
+
+@media (max-width: 1300px) {
+  .how-it-works {
+    min-height: 65vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    text-align: left;
+  }
 }

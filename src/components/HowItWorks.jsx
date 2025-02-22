@@ -12,14 +12,14 @@ const HowItWorks = () => {
       title: "Build",
       description:
         "Share your child's interests, schedule, and preferences. Watch as JustLiv creates the perfect calendar filled with activities.",
-      stepper: "/images/downArrow.png",
+      stepper: "/images/downArrow.webp",
     },
     {
       icon: "/icons/heart.svg",
       title: "Book",
       description:
         "Finalize your selections with one click and enjoy peace of mind.",
-      stepper: "/images/twistedArrow.png",
+      stepper: "/images/twistedArrow.webp",
     },
   ];
 

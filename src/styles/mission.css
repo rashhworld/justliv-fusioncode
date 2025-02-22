@@ -68,3 +68,18 @@
   display: block;
   margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+  .mission-content {
+    text-align: left;
+  }
+
+  .mission-title {
+    justify-content: space-between;
+  }
+
+  .mission-title .blank {
+    display: none;
+
+  }
+}

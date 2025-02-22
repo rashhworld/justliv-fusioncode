@@ -1,6 +1,6 @@
 .cta-section {
-  padding: 8rem 2rem;
-  background-image: url("/images/girls.png");
+  padding: 8rem 1rem;
+  background-image: url("/images/girls.webp");
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -9,7 +9,7 @@
 }
 
 .cta-content {
-  max-width: 800px;
+  max-width: 440px;
   margin: 0 auto;
   z-index: 2;
   display: flex;
@@ -42,4 +42,14 @@
   border-radius: 50px;
   margin-top: 15px;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .cta-section {
+    background-image: url("/images/girlMobile.webp");
+  }
+
+  .cta-content button {
+    width: 100%;
+  }
 }

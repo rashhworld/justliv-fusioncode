@@ -1,5 +1,5 @@
 .features-section {
-  padding: 5rem 2rem;
+  padding: 5rem;
 }
 
 .features-title {
@@ -14,7 +14,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
-  padding: 0 3rem;
 }
 
 .feature-card {
@@ -51,13 +50,33 @@
 
 .feature-image-container {
   width: 100%;
-  height: 230px;
   overflow: hidden;
 }
 
 .feature-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
   border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .features-title {
+    text-align: left;
+  }
+}
+
+@media (max-width: 640px) {
+  .features-section {
+    padding: 5rem 1.2rem;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
 }
